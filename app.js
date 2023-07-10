@@ -19,7 +19,7 @@ const openUrlOnAlt = (base, info, tab) => {
 
 // Youtube -> Invidious
 ;[
-    'https://youtube.076.ne.jp',
+    'https://youtube.owacon.moe',
     'https://invidious.esmailelbob.xyz',
     'https://y.com.sb',
 ].forEach((base) => {
