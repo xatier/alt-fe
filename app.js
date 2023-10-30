@@ -11,6 +11,7 @@ const openUrlOnAlt = (base, info, tab) => {
             const url = `${base}/watch?v=${found[1]}`
             chrome.tabs.create({
                 active: false,
+                index: tab.index + 1,
                 url: url,
             })
         }
