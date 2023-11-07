@@ -3,7 +3,7 @@
 
     "name": "Alternative Frontends",
     "description": "Open links in alternative frontends",
-    "version": "0.3",
+    "version": "0.4",
 
     "background": {
         "scripts": ["app.js"]

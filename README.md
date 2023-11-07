@@ -12,3 +12,4 @@ Open links with
 ## Supported websites
 
 - YouTube -> [Invidious](https://github.com/iv-org/invidious)
+- Instagram -> [Picuki](https://www.picuki.com)
