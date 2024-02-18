@@ -2,10 +2,12 @@
 
 const openUrlOnAlt = (base, info, tab) => {
     ;[
-        /^https:\/\/www\.youtube\.com\/watch\?v=(\S+)/,
+        /^https:\/\/youtube\.com\/watch\?v=(\S+)/,
         /^https:\/\/youtu\.be\/(\S+)/,
     ].forEach((regex) => {
-        const url = info.linkUrl ?? info.selectionText ?? ''
+        let url = info.linkUrl ?? info.selectionText ?? ''
+        // remove the optional 'www.' prefix
+        url = url.replace('www.', '')
         const found = url.match(regex)
         if (found !== null) {
             const url = `${base}/watch?v=${found[1]}`
