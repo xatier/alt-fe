@@ -22,8 +22,8 @@ const openUrlOnAlt = (base, info, tab) => {
 
 // Youtube -> Invidious
 ;[
-    'https://youtube.owacon.moe',
-    'https://invidious.esmailelbob.xyz',
+    'https://yewtu.be',
+    'https://invidious.jing.rocks',
     'https://y.com.sb',
 ].forEach((base) => {
     chrome.contextMenus.create({
